@@ -1,4 +1,4 @@
-# Road Network Optimization Instances
+# Road Network Optimization: Instances and Produced Networks
 
 This repository includes pickle files of 35 G_tot and 35 G_C* testing instances.
 
