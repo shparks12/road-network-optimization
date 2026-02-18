@@ -1,6 +1,9 @@
-# Road Network Optimization: Instances and Produced Networks
+# Road Network Optimization
 
-This repository includes pickle files of 35 G_tot and 35 G_C* testing instances.
+This repository includes:
+- Pickle files of 35 G_tot and 35 G_C* testing instances.
+- Visualizations of all 70 testing instances.
+- Visualization of all 140 networks produced by the 1-LSNDP-C and 1-LSNDP-I with warm start.
 
 ## Reading network instances
 To read network instances in Python, use the following code:
