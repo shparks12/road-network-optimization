@@ -1,9 +1,11 @@
 # Road Network Optimization
 
-This repository includes:
-- Pickle files of 35 G_tot and 35 G_C* testing instances.
-- Visualizations of all 70 testing instances.
-- Visualization of all 140 networks produced by the 1-LSNDP-C and 1-LSNDP-I with warm start.
+This repository provides graph instance objects and visualizations input to synthetic road network optimization models and visualizations of optimized networks. The method is composed of two mathematical programs: the Linearized One-Level Synthetic Network Design Problem for Circuity Control (1-LSNDP-C) and for Inefficiency Control (1-LSNDP-I).
+
+It includes:
+- Pickle files of 35 G_tot and 35 G_C* testing instances, where G_tot instances are input to the 1-LSNDP-C and G_C* instances are input to the 1-LSNDP-I.
+- Visualizations of all these 70 testing instances.
+- Visualization of all 70 networks produced by the 1-LSNDP-C with warm start and all 70 produced by the 1-LSNDP-I with warm start.
 
 ## Reading network instances
 To read network instances in Python, use the following code:
@@ -16,12 +18,12 @@ graph_instance = pickle.load(open(file, 'rb'))  # 'file' should be the path to t
 ## Network file naming convention
 Each network is given a unique name of form "G_complete_V_X.pickle" or "G_circuity_controlled_V_X.pickle" where "V" is the number of nodes in the network and "X" is the number of the network instance with that number of nodes from 1 to 5. 
 
-## Network properties
-Each network object is a NetworkX DiGraph with the following node and edge attributes:
+## Network instance properties
+Each network instance object G_tot or G_C* is a NetworkX DiGraph with the following node and edge attributes:
 
 ### Node attributes
 - 'x': Horizontal position coordinate
 - 'y': Vertical position coordinate
 
 ### Edge attributes
-- 'length': Euclidean distance attribute between node i and node j for edge (i, j). 
+- 'length': Euclidean distance attribute between node i and node j for edge (i, j).
