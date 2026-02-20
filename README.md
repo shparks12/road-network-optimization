@@ -16,7 +16,7 @@ import pickle
 graph_instance = pickle.load(open(file, 'rb'))  # 'file' should be the path to the pickled network file
 ```
 ## Network file naming convention
-Each network is given a unique name of form "G_complete_V_X.pickle" or "G_circuity_controlled_V_X.pickle" where "V" is the number of nodes in the network and "X" is the number of the network instance with that number of nodes from 1 to 5. 
+Each network object is given a unique name of form "G_complete_V_X.pickle" (G_tot instance) or "G_circuity_controlled_V_X.pickle" (G_C* instance) where "V" is the number of nodes in the network and "X" is the number of the network instance with that node count in [1, 5]. 
 
 ## Network instance properties
 Each network instance object G_tot or G_C* is a NetworkX DiGraph with the following node and edge attributes:
