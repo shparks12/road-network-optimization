@@ -22,8 +22,8 @@ Each network object is given a unique name of form "G_complete_V_X.pickle" (G_to
 Each network instance object G_tot or G_C* is a NetworkX DiGraph with the following node and edge attributes:
 
 ### Vertex attributes
-- 'x': Horizontal position coordinate
-- 'y': Vertical position coordinate
+- 'x': Horizontal position coordinate [mi]
+- 'y': Vertical position coordinate [mi]
 
 ### Arc attributes
-- 'length': Euclidean distance attribute between vertex i and vertex j for arc (i, j).
+- 'length': Euclidean distance attribute between vertex i and vertex j for arc (i, j) [mi].
