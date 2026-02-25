@@ -5,9 +5,9 @@ This repository provides graph instance objects and visualizations input to synt
 G_tot instances are input to the 1-LSNDP-C, which produces circuity-controlled graphs G_C*. G_C* instances are input to the 1-LSNDP-I, which produces inefficiency-controlled graphs G_C*,I*.
 
 The repository includes:
-- Pickle files of 35 G_tot and 35 G_C* testing instances, where G_tot instances are input to the 1-LSNDP-C and G_C* instances are input to the 1-LSNDP-I.
+- Pickle files of 35 G_tot and 35 G_C* testing instances.
 - Visualizations of all these 70 testing instances.
-- Visualization of all 70 networks produced by the 1-LSNDP-C with warm start and all 70 produced by the 1-LSNDP-I with warm start.
+- Visualization of all 70 G_C* networks produced by the 1-LSNDP-C with warm start and all 70 G_C*,I* networks produced by the 1-LSNDP-I with warm start.
 
 ## Reading network instances
 To read network instances in Python, use the following code:
