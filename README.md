@@ -2,6 +2,8 @@
 
 This repository provides graph instance objects and visualizations input to synthetic road network optimization models and visualizations of optimized networks. The method is composed of two mathematical programs: the Linearized One-Level Synthetic Network Design Problem for Circuity Control (1-LSNDP-C) and for Inefficiency Control (1-LSNDP-I).
 
+G_tot instances are input to the 1-LSNDP-C, which produces circuity-controlled graphs G_C*. G_C* instances are input to the 1-LSNDP-I, which produces inefficiency-controlled graphs G_C*,I*.
+
 It includes:
 - Pickle files of 35 G_tot and 35 G_C* testing instances, where G_tot instances are input to the 1-LSNDP-C and G_C* instances are input to the 1-LSNDP-I.
 - Visualizations of all these 70 testing instances.
