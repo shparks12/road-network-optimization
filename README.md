@@ -7,7 +7,7 @@ G_tot instances are input to the 1-LSNDP-C, which produces circuity-controlled g
 The repository includes:
 - Pickle files of 35 G_tot and 35 G_C* testing instances.
 - Visualizations of all these 70 testing instances.
-- Visualization of all 70 G_C* networks produced by the 1-LSNDP-C with warm start and all 70 G_C*,I* networks produced by the 1-LSNDP-I with warm start.
+- Visualization of all 140 G_C* networks produced by the 1-LSNDP-C with warm start and all 140 G_C*,I* networks produced by the 1-LSNDP-I with warm start.
 
 ## Reading network instances
 To read network instances in Python, use the following code:
